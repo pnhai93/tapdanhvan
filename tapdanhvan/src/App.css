@@ -1,0 +1,76 @@
+.math-quiz-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.operation-selection button {
+  margin: 10px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.object-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.operator {
+  font-size: 30px;
+  font-weight: bold;
+}
+/* Container hi?n th? hình ?nh */
+.grid-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* T?o kho?ng cách gi?a các nhóm hình ?nh */
+}
+
+/* L??i 3x3 ?? s?p x?p hình ?nh */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 c?t */
+  gap: 12px; /* T?ng kho?ng cách gi?a các hình */
+  padding: 15px; /* Thêm padding cho b? c?c ??p h?n */
+  background-color: #f8f8f8; /* N?n nh? giúp n?i b?t */
+  border-radius: 8px; /* Bo góc nh? */
+}
+
+/* Ô ch?a t?ng hình ?nh */
+.grid-item {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 6px; /* Bo góc */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Hi?u ?ng ?? bóng nh? */
+}
+
+.answer-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* T?ng kho?ng cách gi?a các nút */
+  margin-top: 20px;
+}
+
+.answer-buttons button {
+  font-size: 20px !important;
+  padding: 12px 24px !important;
+  border-radius: 8px !important;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2) !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.answer-buttons button:hover {
+  transform: scale(1.1) !important;
+  background-color: #ffcc00 !important;
+  color: black !important;
+}
